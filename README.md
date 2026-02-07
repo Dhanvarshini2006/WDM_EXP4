@@ -68,3 +68,5 @@ plt.show()
 
 ### Result:
 
+Thus, cluster and Visitor Segmentation for Navigation patterns have been implemented successfully.
+
