@@ -60,10 +60,24 @@ plt.ylabel('Number of Visitors')
 plt.title('Visitor Distribution Across Age Groups')
 plt.show()
 ```
+```
+
+
+import matplotlib.pyplot as plt
+plt.figure(figsize=(10, 6))
+scatter = plt.scatter(df3['Age'], df3['Income'], c=df3['cluster'], cmap='viridis', s=100, edgecolors='k')
+plt.xlabel('Age ')
+plt.ylabel('Income')
+plt.title('Visitor Distribution Across Age Group')
+plt.colorbar(scatter, label='Cluster')
+plt.show()
+```
 
 ### Output:
 
 <img width="913" height="529" alt="image" src="https://github.com/user-attachments/assets/2f9bbf4a-e785-4075-b6bc-4577bb867654" />
+
+<img width="760" height="464" alt="image" src="https://github.com/user-attachments/assets/f085b337-91c8-4f0b-ab98-039d3fa3e21b" />
 
 
 ### Result:
